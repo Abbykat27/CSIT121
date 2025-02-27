@@ -1,0 +1,28 @@
+h1 {
+    color: purple
+}
+
+body {
+    background-color: grey 
+}
+
+a:hover {
+    color: lavender;
+    text-decoration: underline;
+}
+
+a {
+    color: purple;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+#secondary-heading {
+    color: blueviolet;
+    text-transform: uppercase;
+
+}
+.new-formatting {
+    color: peru;
+    font-weight: bold;
+}
