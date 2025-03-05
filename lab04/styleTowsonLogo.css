@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    background-image: url("images/backgroundimage.jpg");
+}
+
+#towsonbackground {
+    background-color: rgb(0, 0, 0, 0.6);
+}
+      
+
+h1 {
+    color: yellow;
+}
+h3 {
+    color: white
+}
+#why-chose {
+    color: white;
+    text-align: center; /* Centers the text */
+    font-size: 24px; /* Increases text size */
+    font-weight: bold; /* Makes it bold */
+}
+#Athletics {
+    font-size: 18px;
+}
+p {
+    color: white;
+}
+.image-container {
+    text-align: center;
+}
+img {
+    display: inline-block;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a {
+    color: yellow;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.image-credit {
+    text-align: center; /* Centers the text */
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
