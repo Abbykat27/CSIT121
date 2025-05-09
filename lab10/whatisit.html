@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="styleTowson.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+    <a href="whatisit.html" class="active">What is it?</a>
+    <a href="howused.html">How is it Used?</a>
+    <a href="importance.html">Importance</a>
+    <a href="sources.html">Sources</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<header>
+    <h1>What is Geolocation for Websites?</h1>
+</header>
+
+<main id="towsonbackground">
+    <div class="image-container">
+        <img src="geolocationwebsites.png" alt="Image showing how geolocation works on websites">
+    </div>
+
+    <article>
+        <h2>Image Source</h2>
+        <div class="image-credit">
+            <p><strong>Here is the source for my image:</strong></p>
+            <p>Credits: TechTarget</p>
+            <p>Click on TechTarget text below to be linked to the website that this image was taken from:</p>
+            <p><a href="https://www.techtarget.com/searchmobilecomputing/definition/What-is-geolocation">Geolocation - TechTarget</a></p>
+        </div>
+    </article>
+
+    <article>
+        <h2>Explanation of Geolocation in Websites</h2>
+        <p class="why-chose">It is a technology that identifies the physical location of devices and people based on their 
+        geographic coordinates and IP addresses. Most of the time, in order for this technology to work the device must be 
+        connected to the internet. However, an internet connection is not needed for GPS-enabled devices because 
+        they use satellite signals to determine locations.</p>
+
+        <p><strong>The step-by-step process in geolocation is as follows:</strong></p>
+        <ol>
+            <li><strong>Collection:</strong> device collects raw data about its location from multiple sources such as GPS signals, Wi-Fi pings, and cellular data exchanges</li>
+            <li><strong>Transmission:</strong> raw data is sent to the central server or cloud infrastructure that operates a geolocation application</li>
+            <li><strong>Triangulation:</strong> device determines its location by measuring its distance from cell towers, satellites, or Wi-Fi access points</li>
+            <li><strong>Processing:</strong> algorithms process the raw data to produce accurate location data</li>
+        </ol>
+
+        <h3>Limitations of Geolocation</h3>
+        <p class="why-chose">There are multiple factors that contribute to the accuracy of a device's geolocation reading. The different factors are the device type, data collection method, 
+        and surrounding environment. Mobile devices generally provide better geolocation results than stationary devices because they usually have built-in GPS sensors
+        and more constant cellular/Wi-Fi connectivity. The data collection method matters because each method is not the same in accuracy. For example, IP geolocation is usually 
+        less accurate than network connections. Lastly, the surrounding environment matters. Urban environments typically have more cell towers in the area as compared to 
+        rural environments, enhancing the accuracy of geolocation data.</p>
+
+        <h3>Geolocation Privacy Issues</h3>
+        <p class="why-chose">Geolocation data is considered sensitive information. If this information got into the wrong hands it could put someone in a dangerous position. 
+        Therefore, organizations that handle geolocation data use security software tools and methods to safeguard the information. However, misuse is not 
+        limited to outside sources. Sometimes the organizations that collect the data are the culprits. For example, in the past organizations have not 
+        been up-front about how they plan on using the data.</p>
+
+        <p id="Sources">Here is a link to a website where I got the information for these three paragraphs from:</p>
+        <p><a href="https://www.techtarget.com/searchmobilecomputing/definition/What-is-geolocation">Tech Target - Geolocation</a></p>
+    </article>
+</main>
+
+<footer>
+    <p>&copy; 2025 Abigail Katilas. All rights reserved.</p>
+</footer>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+</body>
+</html>
