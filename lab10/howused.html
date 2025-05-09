@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="styleTowson.css">
+
+</head>
+<body> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+        <a href="whatisit.html" class="active">What is it?</a>
+        <a href="howused.html">How is it Used?</a>
+        <a href="importance.html">Importance</a>
+        <a href="sources.html">Sources</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <header>
+        <h1>How Geolocation is Used</h1>
+    </header>
+    <main id="towsonbackground">
+    <main>
+        <div class="image-container">
+            <img src="geolocationuses.jpg" alt="Geolocation Image">
+        </div>
+        <article>
+            <div class="image-credit">
+                <p><strong>Here is the source for my image:</strong></p>
+                    <p>Credits: GeoPlugin</p>
+                    <p>Click on GeoPlugin below to visit the website that I got this image from: </p>
+                    <p> <a href="https://www.geoplugin.com/resources/geolocation-data-definition-collection-methods-and-uses/">GeoPlugin</a></p>
+            </div>
+        </article>
+        <article>
+            <p id="why-chose">Applications of Geolocation</p>
+            
+
+            <h3>One application of geolocation is health services. Health providers can use geolocation data to improve their emergency services to reach patients faster. 
+                For example, accurate location data lets emergency medical teams reach patients with critical health issues sooner. A second application of geolocation 
+                is finance. 
+            </h3>
+
+            <h3>Geolocation makes fraud detection easier for companies. Users can recieve notifications when unauthorized devices from uncommon locations use their 
+                payment methods. A third application is retail. Businesses are able tailor their marketing strategies depending on the physical location of their customers.
+                For example, e-commerce companies like Amazon use geolocation data to locate their customers.
+            </h3>
+            
+            <h3>A fourth application of geolocation is logistics. Route optimization and incident management in supply chains need precise geolocation data. The information 
+                is used to address delays in delivery goods and services faster. For example, a trucking company could have vehicles break down, creating supply chain issues. 
+                Geolocation data could be used to help dispatchers quickly locate the truck and send a repair team to fix it. 
+            </h3>
+    </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 Abigail Katilas. All rights reserved.</p>
+    </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
