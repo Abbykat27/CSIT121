@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Table template</h1>
+    <table>
+    <!-- thead element encapsulates a set of table rows, indicating that they comprise the head of a table with information about the table's columns -->
+    <thead>
+   <!-- Each table row starts with a <tr> and ends with a </tr> tag. -->
+        <tr>
+            <th>Course Number</th>
+            <th>Course Name</th>
+            <th>Instructor's Name</th>
+          </tr>
+    </thead>
+    <!-- tbody element encapsulates a set of table rows indicating that they comprise the body of a table's main data. -->
+    <tbody>
+        <tr>
+    <!-- Everything between <td> and </td> is the content of a table cell.-->
+            <td>CSIT121</td>
+            <td>Web Standards</td>
+            <td>Lex Brown</td>
+          </tr>
+    <!-- Each table row starts with a <tr> and ends with a </tr> tag. -->
+        <tr>
+    <!-- Everything between <td> and </td> is the content of a table cell.-->
+            <td>CSIT154</td>
+            <td>Database Concepts</td>
+            <td>Sandra Tavegia</td>
+        </tr>
+    <!-- Each table row starts with a <tr> and ends with a </tr> tag. -->
+        <tr>
+     <!-- Everything between <td> and </td> is the content of a table cell.-->
+            <td>CSIT224</td>
+            <td>Advanced Linux Administration</td>
+            <td>Eric Ward</td>
+        </tr>
+
+    <!-- Each table row starts with a <tr> and ends with a </tr> tag. -->
+        <tr>
+    <!-- Everything between <td> and </td> is the content of a table cell.-->
+            <td>CSIT214</td>
+            <td>C++ Programming</td>
+            <td>Nazli Mehrazar</td>
+         </tr>
+    <!-- Each table row starts with a <tr> and ends with a </tr> tag. -->
+        <tr>
+    <!-- Everything between <td> and </td> is the content of a table cell.-->
+            <td>CSIT241</td>
+            <td>Applied System Analysis & Design</td>
+            <td>Renuka Kumar</td>
+         </tr>
+    </tbody>
+    </table>
+
+
+    <form action="/my-handling-form-page" method="post">
+  <p>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name" />
+  </p>
+  <p>
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="user_email" />
+  </p>
+    <label for="comments">Your comments go here (maximum of 1600 characters)</label>
+    <textarea id="comments" name="comments" maxlength = "1600" required></textarea>
+
+    <input type="submit" value="Submit Feedback">
+
+</form>
+
+<footer>
+  <p>Created by Abigail Katilas</p>
+  <p>Contact: <a href="mailto:kat349078@ccbcmd.edu">kat349078@ccbcmd.edu</a></p>
+</footer>
+
+  </body>
+</html>
+
+
