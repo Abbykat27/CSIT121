@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Introduction & Navigation</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">Biography of Me as a Developer & Student</a>
+    <a href="reflection.html">Reflection</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+<main id="floralbackground">
+  <header>
+    <h1>Reflection</h1>
+  </header>
+
+    <section>
+      <h2>Lessons Learned</h2>
+      <p>A major challenge that I had with this project is getting the black shading effect to show on all websites. I had added this to a website before in lb04, but I was having 
+        trouble transferring the formatting to this lab. Some of the triumphs that I had during this project include the amount of material that I already had ready to use thanks 
+        to me completing past labs. A lot of the techniques that I learned over the semester were easily and quickly incorporated into this assignment.
+      </p>
+      <p>Some of the observations that I had from testing on multiple browsers is that the page adapts nicely on mobile phones thanks to the media screen code on my style.css page.
+        In the course as a whole I learned many many new topics. My favorite things to learn about include creating and formatting tables, inserting and styling images on a webpage, 
+        and creating a navigation menu at the top of a webpage.
+      </p>
+      <p>Some of the things that were challenging for me throughout the semester include keeping the tags properly closed. Many times I would close the tags in the wrong place. 
+        I also struggled with the validator. Often I would have many warnings and errors from the validator that I struggled to fix. 
+      </p>
+
+      <!-- This image shows an accessible image element in HTML -->
+      <img src="programmingflower.jpg" alt="A flower programmed using HTML & CSS" class="centered-image">
+    </section> 
+
+  </main> 
+
+
+  <footer>
+    <p>&copy; 2025 Abigail Katilas. All rights reserved.</p>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Introduction & Navigation</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">Biography of Me as a Developer & Student</a>
+    <a href="reflection.html">Reflection</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+<main id="floralbackground">
+  <header>
+    <h1>Abby's Web Development Portfolio</h1>
+  </header>
+
+    <section>
+  <h2>Introduction</h2>
+  <p>This portfolio showcases the web development projects that I have completed over the semester. There are a total of 10 projects in the showcase that all illustrate different styling techniques. All of them 
+  have a personal touch and incorporate important details from my life.</p>
+
+  <!-- This image shows an accessible image element in HTML -->
+  <img src="programmingflower.jpg" alt="A flower programmed using HTML & CSS" class="centered-image">
+
+  <p>Some of the websites that I used often during this class while creating my projects include:</p>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a></li>
+    <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+    <li><a href="https://www.rapidtables.com/web/color/Web_Safe.html" target="_blank">RapidTables</a></li>
+    <li><a href="https://www.nngroup.com/" target="_blank">NNGroup</a></li>
+  </ul>
+</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Abigail Katilas. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Introduction & Navigation</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">Biography of Me as a Developer & Student</a>
+    <a href="reflection.html">Reflection</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <main id="floralbackground">
+    <header>
+      <h1>About Me as a Developer & Student</h1>
+    </header>
+
+    <section>
+      <h2>My Journey as a Developer</h2>
+      <p>I have been taking computer science classes since 2021 through Towson University. However, this is my first web programming class. The language that I feel most comfortable programming in is Java thanks to 
+      my introductory programming courses at Towson University. I already had exposure to some of the topics in this class thanks to my job with the company AI Code Academy teaching children programming & math.</p>
+
+      <h2>My Journey as a Student & Individual</h2>
+      <p>I have been studying computer science at CCBC since Winter 2024. I graduate this semester with my associates degree in Computer Science! I was able to graduate in less than 
+      a year because of my credits transferring from Towson University. I plan on graduating with my bachelors degree in Computer Science in May of 2026 if I do not take a job
+      teaching elementary school - which I am currently considering right now!</p>
+
+      <p>If I take the elementary school teaching position I plan on trying to integrate my background in computer science into my lessons!</p>
+
+      <!-- This image shows accessible image elements side by side -->
+      <div class="image-row">
+        <img src="programmingflower.jpg" alt="A flower programmed using HTML & CSS" class="side-by-side">
+        <img src="ccbcdundalklions.jpg" alt="CCBC Dundalk Lions logo" class="side-by-side">
+      </div>
+
+      <p>The last thing that I would like to share about myself is that I have been working at CCBC Dundalk as a math & science tutor while studying at CCBC. I enjoy the CCBC Dundalk 
+      campus - it is actually my favorite CCBC campus.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Abigail Katilas. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>

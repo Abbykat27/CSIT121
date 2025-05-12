@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="styleTowson.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="whatisit.html" class="active">What is it?</a>
+        <a href="howused.html">How is it Used?</a>
+        <a href="importance.html">Importance</a>
+        <a href="sources.html">Sources</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <header>
+        <h1>How Geolocation is Used</h1>
+    </header>
+
+    <main id="towsonbackground">
+        <div class="image-container">
+            <img src="geolocationuses.jpg" alt="Geolocation Image">
+        </div>
+
+        <article>
+            <h2>Image Source</h2>
+            <div class="image-credit">
+                <p><strong>Here is the source for my image:</strong></p>
+                <p>Credits: GeoPlugin</p>
+                <p>Click on GeoPlugin below to visit the website that I got this image from:</p>
+                <p><a href="https://www.geoplugin.com/resources/geolocation-data-definition-collection-methods-and-uses/">GeoPlugin</a></p>
+            </div>
+        </article>
+
+        <article>
+            <h2>Applications of Geolocation</h2>
+            <p>Geolocation Data: Definition, Collection, Method and Uses</p>
+
+            <h3>Health Services</h3>
+            <p>Health providers can use geolocation data to improve their emergency services to reach patients faster. For example, accurate location data lets emergency medical teams reach patients with critical health issues sooner.</p>
+
+            <h3>Finance</h3>
+            <p>Geolocation makes fraud detection easier for companies. Users can receive notifications when unauthorized devices from uncommon locations use their payment methods.</p>
+
+            <h3>Retail</h3>
+            <p>Businesses are able to tailor their marketing strategies depending on the physical location of their customers. For example, e-commerce companies like Amazon use geolocation data to locate their customers.</p>
+
+            <h3>Logistics</h3>
+            <p>Route optimization and incident management in supply chains need precise geolocation data. The information is used to address delays in delivering goods and services faster. For example, a trucking company could have vehicles break down, creating supply chain issues. Geolocation data could be used to help dispatchers quickly locate the truck and send a repair team to fix it.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Abigail Katilas. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

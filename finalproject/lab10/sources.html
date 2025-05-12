@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <link rel="stylesheet" href="styleTowson.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="whatisit.html" class="active">What is it?</a>
+    <a href="howused.html">How is it Used?</a>
+    <a href="importance.html">Importance</a>
+    <a href="sources.html">Sources</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <header>
+    <h1>Sources</h1>
+  </header>
+
+  <main id="towsonbackground">
+    <article>
+      <h2>These are the sources that I used to create this website:</h2>
+      <ol>
+        <li>Rashid, M. (2024, June 7). Geolocation Data: Definition, Collection Method and Uses. <a href="https://www.geoplugin.com/resources/geolocation-data-definition-collection-methods-and-uses/">https://www.geoplugin.com/resources/geolocation-data-definition-collection-methods-and-uses/</a></li>
+        <li>Hashemi-Pour. (n.d.). What is geolocation? Explaining how geolocation data works. <a href="https://www.techtarget.com/searchmobilecomputing/definition/What-is-geolocation">https://www.techtarget.com/searchmobilecomputing/definition/What-is-geolocation</a></li>
+        <li>(n.a). (2026, April 11). Geolocation: W3C Recommendation. <a href="https://www.w3.org/TR/geolocation/">https://www.w3.org/TR/geolocation/</a></li>
+      </ol>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Abigail Katilas. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+</html>
